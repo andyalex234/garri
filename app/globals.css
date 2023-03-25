@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gilroy;
+  scroll-behavior: smooth;
+}
+
+.gradient-1 {
+  background: linear-gradient(106.07deg, rgba(0, 255, 133, 0.1525) 1.46%, rgba(198, 198, 198, 0) 79.53%);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
