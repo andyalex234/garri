@@ -78,8 +78,21 @@ const Service = () => (
             className='md:py-56 py-20'
         >
             <Technologies />
+            <motion.p
+                variants={fadeIn('up', 'tween', 0.2, 0.8)}
+                className='text-[24px] font-bold text-white text-center '
+
+            >
+                As a team, we are proud to have successfully completed 3 Blockchain solutions. These projects have allowed us to solve real-world problems and enhance the performance of various businesses and organizations.
+            </motion.p>
+            <motion.p
+                variants={fadeIn('up', 'tween', 0.2, 0.8)}
+                className='text-[24px] font-bold text-white text-center pt-6'
+            >
+                Our solutions have been acknowledged for their scalability, security, and flexibility, and have helped to achieve measurable results such as increased efficiency, cost savings, and improved customer satisfaction. We are committed to delivering high-quality solutions that meet the unique needs of each client and provide them with the support they need to succeed.
+            </motion.p>
         </motion.div>
     </section>
-)
+);
 
 export default Service;
