@@ -1,7 +1,6 @@
-import Image from 'next/image'
-import styles from './page.module.css'
 import { Navbar } from '@/components';
 import Hero from '@/sections/Hero';
+import About from '@/sections/About';
 
 
 export default function Home() {
@@ -12,6 +11,7 @@ export default function Home() {
         <Navbar/>
         <Hero/>
       </div>
+      <About/>
     </div>
   )
 }
