@@ -58,7 +58,7 @@ const About = () => (
         >
             <motion.p
                 variants={fadeIn('up', 'tween', 0.2, 0.8)}
-                className='text-[36px] font-bold text-white text-center py-72'
+                className='text-[36px] font-bold text-white text-center pt-72'
             >
                 We are a technology company founded by experienced web3 engineers with over a decade of experience working at top tech companies around the world. Our mission is to empower Ethiopia&apos;s economy through cutting-edge technology solutions.
             </motion.p>
