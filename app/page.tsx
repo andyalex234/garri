@@ -4,6 +4,7 @@ import About from '@/sections/About';
 import Service from '@/sections/Service';
 import Partners from '@/sections/Partners';
 import Team from '@/sections/Team';
+import Contact from '@/sections/Contact';
 
 
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Service/>
       <Partners/>
       <Team/>
+      <Contact/>
     </div>
   )
 }
