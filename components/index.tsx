@@ -4,6 +4,7 @@ import ServiceCard from './Service-card';
 import ServiceTypeCard from './Service-type-card';
 import Technologies from './Technologies';
 import Profile from './Profile';
+import Footer from './Footer';
 
 export {
     Navbar,
@@ -12,4 +13,5 @@ export {
     ServiceTypeCard,
     Technologies,
     Profile,
+    Footer,
 }

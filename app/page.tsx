@@ -1,4 +1,4 @@
-import { Navbar } from '@/components';
+import { Footer, Navbar } from '@/components';
 import Hero from '@/sections/Hero';
 import About from '@/sections/About';
 import Service from '@/sections/Service';
@@ -21,6 +21,7 @@ export default function Home() {
       <Partners/>
       <Team/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }
