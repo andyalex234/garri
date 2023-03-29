@@ -3,12 +3,13 @@ import Hero from '@/sections/Hero';
 import About from '@/sections/About';
 import Service from '@/sections/Service';
 import Partners from '@/sections/Partners';
+import Team from '@/sections/Team';
 
 
 
 export default function Home() {
   return (
-    <div className='bg-black overflow-x-hidden overflow-y-scroll md:px-36 px-16 '>
+    <div className='bg-black overflow-x-hidden md:px-36 px-16 '>
       <div>
         <div className='absolute w-[50%] inset-0  gradient-1' />
         <Navbar/>
@@ -17,6 +18,7 @@ export default function Home() {
       <About/>
       <Service/>
       <Partners/>
+      <Team/>
     </div>
   )
 }

@@ -69,4 +69,27 @@ export const technologiesDetail = [
     "Data scraping, or web scraping, is a process of importing data from websites into files or spreadsheets. It is used to extract data from the web, either for personal use by the scraping operator, or to reuse the data on other websites.",
     "Data scraping, or web scraping, is a process of importing data from websites into files or spreadsheets. It is used to extract data from the web, either for personal use by the scraping operator, or to reuse the data on other websites.",
     "Data scraping, or web scraping, is a process of importing data from websites into files or spreadsheets. It is used to extract data from the web, either for personal use by the scraping operator, or to reuse the data on other websites.",
-]
+];
+
+export const teams = [
+    {
+        photoUrl: "/Abebe_Bikila_1968c.jpg",
+        name: "Abebe Bikila",
+        title: "CTO",
+    },
+    {
+        photoUrl: "/derartu.jpg",
+        name: "Derartu Tullu",
+        title: "Markating manager",
+    },
+    {
+        photoUrl: "/chala.jpeg",
+        name: "Challa Gemeda",
+        title: "Senior developer",
+    },
+    {
+        photoUrl: "/Abebe_Bikila_1968c.jpg",
+        name: "Mamo Welde",
+        title: "Devloper",
+    },
+];
